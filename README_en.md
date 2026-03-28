@@ -196,6 +196,6 @@ This project is open-source under **AGPL-3.0**. It depends on [ultralytics](http
 ---
 <div align="center">
 
-**If you find this useful, feel free to give it a ⭐ Star!**
+**If you find this useful, give it a ⭐ Star!**
 
 </div>

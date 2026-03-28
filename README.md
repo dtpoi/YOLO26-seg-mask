@@ -164,8 +164,6 @@ maskYOLO/
 ├── pyproject.toml        # UV 项目配置
 ├── uv.lock               # 依赖锁定文件
 ├── requirements.txt      # pip 兼容依赖列表
-├── hooks/                 # PyInstaller 动态导入收集脚本
-│   └── hook-flet.py       # 解决 Flet 运行时动态导入问题
 ├── assets/
 │   └── fonts/
 │       └── SarasaUiSC-Regular.ttf   # 更纱黑体 UI 字体
