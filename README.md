@@ -1,4 +1,4 @@
-# MaskYOLO - 全景图 Mask 蒙版批量生成器
+# MaskYOLO - 全景图 Mask 蒙版批量生成器 ONNX版本
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-AGPL--3.0-green)
 ![Python](https://img.shields.io/badge/python-3.10+-orange)
 
-**基于 YOLO26-seg 实例分割的全景图物体遮罩生成器**
+**基于 YOLO26-seg 实例分割的全景图物体遮罩生成器** ONNX版本
 
 中文 / [English](README_en.md)
 
@@ -16,11 +16,7 @@
 
 ## 简介
 
-MaskYOLO 是一款专为 360° 全景图像打造的物体遮罩生成工具。
-
-基于 Ultralytics YOLO26 实例分割模型，自动检测并提取全景图中的指定目标（人物、车辆等），输出高质量二值 Mask 图，
-
-可对接 3D高斯泼溅（3D Gaussian Splatting）中的Mask文件需求，尤其对于GUT这种全景图输入推理很有用。
+该版本在 MaskYOLO 的基础上替换了模型推理引擎，从原始的 PyTorch (.pt) 切换到 ONNX Runtime
 
 ### 特性
 
