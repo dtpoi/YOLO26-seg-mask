@@ -8,6 +8,8 @@
 
 **基于 YOLO26-seg 实例分割的全景图物体遮罩生成器**
 
+中文 / [English](README_en.md)
+
 </div>
 
 ---
@@ -52,7 +54,7 @@ MaskYOLO 是一款专为 360° 全景图像打造的物体遮罩生成工具。
 
 ---
 
-## 环境部署（UV）
+## ✨环境部署（UV）
 
 ```bash
 # 克隆仓库
@@ -70,7 +72,7 @@ uv run python main.py
 
 ---
 
-## 使用方法
+## ✨使用方法
 
 ### 1. 启动程序
 
@@ -162,6 +164,9 @@ maskYOLO/
 ├── pyproject.toml        # UV 项目配置
 ├── uv.lock               # 依赖锁定文件
 ├── requirements.txt      # pip 兼容依赖列表
+├── MaskYOLO.spec         # PyInstaller 打包配置
+├── hooks/                 # PyInstaller 动态导入收集脚本
+│   └── hook-flet.py       # 解决 Flet 运行时动态导入问题
 ├── assets/
 │   └── fonts/
 │       └── SarasaUiSC-Regular.ttf   # 更纱黑体 UI 字体
@@ -189,6 +194,12 @@ maskYOLO/
 - [py360convert](https://github.com/sunset1995/py360convert) — 全景投影转换
 - [Flet](https://flet.dev/) — Python GUI 框架
 - [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic) — 更纱黑体字体
+
+---
+
+## 📋 TodoList
+
+- [ ] 一键编译 exe 或文件夹
 
 ---
 
