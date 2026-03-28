@@ -50,7 +50,7 @@ MaskYOLO 是一款专为 360° 全景图像打造的物体遮罩生成工具。
 | [torch](https://github.com/pytorch/pytorch) | ≥ 2.0.0 | 深度学习框架（CUDA 12.4 优化） |
 | [torchvision](https://github.com/pytorch/pytorch) | ≥ 0.15.0 | 计算机视觉工具 |
 
-> **提示**：首次运行程序时会自动从 Ultralytics 官方源下载 `yolo26n-seg.pt` 预训练权重（约 7 MB），如遇下载失败可手动从 [Ultralytics 官网文档](https://docs.ultralytics.com/models/yolo26/#yoloe-26-open-vocabulary-instance-segmentation) 获取并放入项目根目录。
+> **提示**：首次运行程序时会自动从 Ultralytics 官方源下载 `yolo26n-seg.pt` 预训练权重（约 7 MB），如遇下载失败可手动从 [Ultralytics Assets](https://github.com/ultralytics/assets/releases) 获取并放入项目根目录。找不到的的话就是文件太多被Github收起了，要按下 Show all *** assets。
 
 ---
 
@@ -164,7 +164,6 @@ maskYOLO/
 ├── pyproject.toml        # UV 项目配置
 ├── uv.lock               # 依赖锁定文件
 ├── requirements.txt      # pip 兼容依赖列表
-├── MaskYOLO.spec         # PyInstaller 打包配置
 ├── hooks/                 # PyInstaller 动态导入收集脚本
 │   └── hook-flet.py       # 解决 Flet 运行时动态导入问题
 ├── assets/

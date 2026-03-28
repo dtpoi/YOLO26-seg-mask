@@ -47,11 +47,11 @@ Built on Ultralytics YOLO26 instance segmentation, it automatically detects and 
 | [torch](https://github.com/pytorch/pytorch) | ≥ 2.0.0 | Deep learning framework (CUDA 12.4 optimized) |
 | [torchvision](https://github.com/pytorch/pytorch) | ≥ 0.15.0 | Computer vision utilities |
 
-> **Tip**: On first run, the program will automatically download `yolo26n-seg.pt` (~7 MB) from the Ultralytics official source. If download fails, manually obtain it from [Ultralytics Docs](https://docs.ultralytics.com/models/yolo26/#yoloe-26-open-vocabulary-instance-segmentation) and place it in the project root.
+> **Tip**: On first run, the program will automatically download `yolo26n-seg.pt` (~7 MB) from the Ultralytics official source. If download fails, manually obtain it from [Ultralytics Assets](https://github.com/ultralytics/assets/releases) and place it in the project root.
 
 ---
 
-## Environment Setup (UV)
+## 🌟 Environment Setup (UV)
 
 ```bash
 # Clone the repo
@@ -69,7 +69,7 @@ uv run python main.py
 
 ---
 
-## Usage
+## 🌟 Usage
 
 ### 1. Launch the Program
 
@@ -189,6 +189,11 @@ This project is open-source under **AGPL-3.0**. It depends on [ultralytics](http
 
 ---
 
+## 📋 TodoList
+
+- [ ] Compile an EXE or folder with a one click
+
+---
 <div align="center">
 
 **If you find this useful, feel free to give it a ⭐ Star!**
