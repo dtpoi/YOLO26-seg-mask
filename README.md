@@ -197,6 +197,7 @@ maskYOLO/
 ## 📋 TodoList
 
 - [ ] 一键编译 exe 或文件夹
+- [ ] 将py360convert更换成支持GPU加速的全景转换库，进一步提升全景图处理速度
 
 ---
 

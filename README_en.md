@@ -192,6 +192,7 @@ This project is open-source under **AGPL-3.0**. It depends on [ultralytics](http
 ## 📋 TodoList
 
 - [ ] Compile an EXE or folder with a one click
+- [ ] Replace py360convert with a panoramic conversion library that supports GPU acceleration to further improve the processing speed of panoramic images
 
 ---
 <div align="center">
