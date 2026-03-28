@@ -8,7 +8,7 @@
 
 **Panorama object mask generator based on YOLO26-seg instance segmentation**
 
-[中文](README_.md) / English
+[中文](README.md) / English
 </div>
 
 ---
