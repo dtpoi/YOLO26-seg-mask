@@ -1,0 +1,42 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) 2026
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+## 中文说明 (非正式翻译)
+
+本软件采用 GNU Affero 通用公共许可证第三版 (AGPL-3.0) 授权。
+
+### 您的权利：
+- ✅ 自由使用本软件
+- ✅ 自由研究并修改源代码
+- ✅ 自由分发本软件的副本
+- ✅ 自由分发您修改后的版本
+
+### 您的义务：
+- ⚠️ 分发时必须提供源代码
+- ⚠️ 分发时必须使用相同的 AGPL-3.0 许可证
+- ⚠️ 如果通过网络提供服务（用户不下载软件），也必须提供源代码
+- ⚠️ 必须保留原始版权声明和许可证文本
+
+### 为什么使用 AGPL-3.0？
+
+本项目依赖 ultralytics 库，该库采用 AGPL-3.0 许可证。
+根据许可证条款，调用 AGPL 许可的库的软件也必须以 AGPL 许可证开源。
+
+完整许可证文本请见：https://www.gnu.org/licenses/agpl-3.0.html

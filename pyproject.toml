@@ -1,0 +1,55 @@
+[project]
+name = "mask-yolo"
+version = "1.0.0"
+description = "全景图像人物去除工具 - 基于 YOLO26-seg 的实例分割"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0" }
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
+keywords = ["yolo", "segmentation", "360-panorama", "mask", "person-removal"]
+
+dependencies = [
+    "ultralytics>=8.4.0",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "py360convert>=0.1.0",
+    "flet>=0.25.0",
+    "flet-desktop>=0.25.0",
+    "torch",
+    "torchvision",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyinstaller>=6.0.0",
+    "pytest>=7.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.uv]
+dev-dependencies = [
+    "pyinstaller>=6.0.0",
+]
+
+# PyTorch CUDA 12.4 官方源（兼容 CUDA 12.x）
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+torchvision = { index = "pytorch-cu124" }
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/maskYOLO"
+Repository = "https://github.com/YOUR_USERNAME/maskYOLO"
+Issues = "https://github.com/YOUR_USERNAME/maskYOLO/issues"

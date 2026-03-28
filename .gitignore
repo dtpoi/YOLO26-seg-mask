@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+*.spec.bak
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.exe
+
+# Model files (optional - 如果不想提交模型文件)
+*.pt
+*.onnx
+*.engine
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+test_output/
+temp/
+
+# UV
+.uv/
+uv.lock
